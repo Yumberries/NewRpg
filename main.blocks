@@ -1,0 +1,23 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="vAriKXbAz*S-Q2)2![y(">mySprite</variable><variable type="KIND_SpriteKind" id=",4TlVaz*~(6~~eX+F/LR">Player</variable><variable type="KIND_SpriteKind" id="gEBdy!.Gi/J5^(y)H]/7">Projectile</variable><variable type="KIND_SpriteKind" id="]I.~8|17an,Z.IY^vo5q">Food</variable><variable type="KIND_SpriteKind" id="]y#z-Pval?@vCFh~pLpm">Enemy</variable></variables><comment id="8ETo|{{drkj(?RY$##7$" x="-244" y="-2" h="200" w="200">Goal - Defeat a boss
+Setting - Cave
+Genre - rpg / upgrades
+Art Style - Dark
+Twist - Item Crafting
+Bonus - Ghosts</comment><block type="pxt-on-start" id="{=]?[/MB(9Cc)p_M$`c+" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="AOM6_jTa9x4c!x02th/N"><field name="VAR" id="vAriKXbAz*S-Q2)2![y(">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="B%sgiD9=Z-ux8i?,[N%;"><value name="img"><shadow type="screen_image_picker" id="3.H8Qn_BL#)*DR*s3DwN"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . f f f . . . . . . . 
+. . . . f f 3 3 3 f f . . . . . 
+. . . f 3 3 3 3 3 3 3 f . . . . 
+. . f 3 3 3 3 3 3 3 3 3 f . . . 
+. . f 3 3 3 f 3 f 3 3 3 f . . . 
+. f 3 3 3 3 f 3 f 3 3 3 3 f . . 
+. f 3 3 3 3 3 3 3 3 3 3 3 f . . 
+. f 3 3 3 3 3 3 3 3 3 3 3 f . . 
+. . f 3 3 3 3 3 3 3 3 3 f . . . 
+. . f 3 3 3 3 3 3 3 3 3 f . . . 
+. . . f 3 3 3 3 3 3 3 f . . . . 
+. . . . f f 3 3 3 f f . . . . . 
+. . . . . . f f f . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"3.H8Qn_BL#)*DR*s3DwN"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id=",X%AW)mS@Mbi~x4o{WjU"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="[DRj{#d*Ar8;){|y0)%["><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id=")9D;zGo#hxm~L2cdoY(x"><field name="VAR" id="vAriKXbAz*S-Q2)2![y(">mySprite</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="nX=A$U#kQjaw#aD@$!rG"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="p}Be*#b%~00)zl^J7azF"><field name="speed">100</field></shadow></value><next><block type="camerafollow" id="FF.Po`JLuAX|.c@P*9OR"><value name="sprite"><block type="variables_get" id="l;dP$]=3hvK#:0W;$Q7="><field name="VAR" id="vAriKXbAz*S-Q2)2![y(">mySprite</field></block></value><next><block type="set_current_tilemap" id="-x-k)8v/w+]%hbpTUS^D"><value name="tilemap"><shadow type="tiles_tilemap_editor" id="I)Khx68(Y-$_VD%#Ny|}"><field name="tilemap">tilemap`level2`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level2"}}</data></shadow></value><next><block type="gamesetbackgroundcolor" id="z7ek9.4NiKR$-oj,^`~o"><value name="color"><shadow type="colorindexpicker" id="swnpWy?S`KfeIb#_nmy/"><field name="index">12</field></shadow></value></block></next></block></next></block></next></block></next></block></statement></block><block type="tiles_tilemap_editor" id="lvLVCM%;;oHpYWv!a0C?" disabled="true" x="-190" y="590"><field name="tilemap">tilemap`level5`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level5"}}</data></block></xml>
